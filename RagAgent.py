@@ -42,7 +42,7 @@ text_spiltter = RecursiveCharacterTextSplitter(
 
 pages_spilt = text_spiltter.split_documents(pages)
 
-persist_directory = "/Users/shivamkhokhani/Desktop/Research/Learn"
+persist_directory = "/Users/shivamkhokhani/Desktop/Projects/RAGAgent"
 collection = 'market_analysis'
 
 if not os.path.exists(persist_directory):
